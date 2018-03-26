@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="........"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/etNG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCodigo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:hint="Nombre Producto"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/etPG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etNG"
+        android:layout_alignStart="@+id/etNG"
+        android:layout_below="@+id/etNG"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Precio Producto"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnGmodulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Guardar" />
+
+</RelativeLayout>
